@@ -28,8 +28,7 @@
       "target": "nsis"
     },
     "mac": {
-      "target": "dmg",
-      "icon": "assets/icon.png"
+      "target": "dmg"
     }
   },
   "devDependencies": {
