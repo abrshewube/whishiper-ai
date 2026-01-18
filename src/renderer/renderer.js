@@ -304,3 +304,4 @@ function resetSubmitButton() {
   document.getElementById('submitText').textContent = 'Ask Gemini';
   document.getElementById('spinner').classList.add('hidden');
 }
+// hhhh
