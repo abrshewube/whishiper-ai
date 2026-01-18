@@ -12,6 +12,7 @@ if (!app.isPackaged) {
   }
 }
 
+// hello
 let mainWindow;
 let tray = null;
 let isWindowLocked = false;
