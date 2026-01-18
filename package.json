@@ -21,9 +21,8 @@
       "assets/**/*",
       "package.json"
     ],
-    "asarUnpack": [
-      "src/main/**/*"
-    ],
+    "asar": true,
+    "compression": "maximum",
     "win": {
       "target": "nsis"
     },
