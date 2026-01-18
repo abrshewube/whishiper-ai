@@ -1,0 +1,158 @@
+/* Custom styles */
+.drag-handle {
+  -webkit-app-region: drag;
+}
+
+.title-bar {
+  -webkit-app-region: drag;
+}
+
+button, input[type="file"] + label {
+  -webkit-app-region: no-drag;
+}
+
+/* Code block styling */
+.code-block {
+  margin: 1rem 0;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+.code-header {
+  padding: 0.5rem 1rem;
+  background-color: #0f172a;
+  color: #94a3b8;
+  font-family: monospace;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.code-header::before {
+  content: "⌄";
+}
+
+pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.inline-code {
+  background-color: #e2e8f0;
+  color: #334155;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+
+/* Syntax highlighting colors */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #64748b;
+}
+
+.token.punctuation {
+  color: #cbd5e1;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #f472b6;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #7dd3fc;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #93c5fd;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #60a5fa;
+}
+
+.token.function,
+.token.class-name {
+  color: #fbbf24;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #f59e0b;
+}
+
+/* Response styling */
+#response {
+  h1, h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  h3 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  p {
+    margin-bottom: 0.5rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+  em {
+    font-style: italic;
+  }
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  ul {
+    list-style-type: disc;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  blockquote {
+    border-left: 4px solid #e2e8f0;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #64748b;
+  }
+}
